@@ -1,0 +1,230 @@
+h1 a {
+    color: green;
+    font-family: 'Abril Fatface';
+    font-size: 48pt;
+    text-shadow: 4px 4px 4px #aaa;
+    text-decoration: none;
+    margin-left: 170px;
+}
+
+h1 a:hover {
+    color: black;
+}
+
+.lister {
+    color: green;
+    font-family: 'Abril Fatface';
+    font-size: 15pt;
+    text-shadow: 4px 4px 4px #aaa;
+    margin-left: 300px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.lister:hover {
+    color: black;
+
+}
+
+.listerhead {
+    color: green;
+    font-family: 'Abril Fatface';
+    font-size: 25pt;
+    text-shadow: 4px 4px 4px #aaa;
+    margin-left: 250px;
+    text-decoration: none;
+}
+
+.listerhead:hover {
+    color: green;
+
+}
+
+.listerheadbrackets {
+    color: green;
+    font-family: 'Abril Fatface';
+    font-size: 15pt;
+    text-shadow: 4px 4px 4px #aaa;
+    text-decoration: none;
+}
+
+.listerheadbrackets:hover {
+    color: green;
+
+}
+
+.listerdetailquestion {
+    color: green;
+    font-family: 'Abril Fatface';
+    font-size: 15pt;
+    text-shadow: 4px 4px 4px #aaa;
+    margin-left: 300px;
+    text-decoration: none;
+}
+
+.listerdetailquestion:hover {
+    color: green;
+
+}
+
+.btn-primary {
+    color: green;
+    background-color:#59f67d;
+    border-color: green;
+    font-family: 'Abril Fatface';
+    font-size: 15pt;
+    text-shadow: 4px 4px 4px #aaa;
+    text-decoration: none;
+    width: 500px;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color:#59f67d;
+    border-color: green;
+}
+
+.listerresultschoices {
+    color: green;
+    font-family: 'Abril Fatface';
+    font-size: 15pt;
+    text-shadow: 4px 4px 4px #aaa;
+    text-decoration: none;
+    margin-left:600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.listerresultschoices:hover {
+    color: green;
+}
+
+.listerresultsquestion {
+    color: green;
+    font-family: 'Abril Fatface';
+    font-size: 15pt;
+    text-shadow: 4px 4px 4px #aaa;
+    text-decoration: none;
+    margin-left:300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.listerresultsquestion:hover {
+    color: green;
+}
+
+.listervoteagain {
+    color: green;
+    font-family: 'Abril Fatface';
+    font-size: 15pt;
+    text-shadow: 4px 4px 4px #aaa;
+    margin-left: 300px;
+    text-decoration: none;
+}
+
+.listervoteagain:hover {
+    color: black;
+}
+
+body {
+    background: #59f67d;
+}
+
+.page_header {
+    background: white url("images/opinion.png");
+    margin-top: 0px;
+    margin-bottom: 40px;
+    
+}
+
+.top-menu {
+    color: green;
+    background: none;
+    font-family: 'Abril Fatface';
+    float: right;
+    font-size: 15pt;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.subcr {
+    color: green;
+    font-family: 'Tangerine';
+    font-size: 35pt;
+    text-shadow: 4px 4px 4px #aaa;
+    text-decoration: none;
+    margin-left: 200px
+}
+
+.subcr:hover {
+    color: black;
+}
+
+
+.emessage {
+    margin-left: 250px;
+    font-family: 'Abril Fatface';
+    color: black;
+    text-decoration: none;
+}
+
+.emessage:hover {
+    color: black;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+    color: green;
+    font-family: 'Abril Fatface';
+    font-size: 15pt;
+    background: none;
+    border-color: green;
+    margin-left: 300px;
+    margin-top: 25px;
+    width: 500px;
+}
+
+.btn-secondary:hover {
+    color: black;
+    background-color:#59f67d;
+}
+
+.btn-tertiary,
+.btn-tertiary:visited {
+    color: green;
+    font-family: 'Abril Fatface';
+    font-size: 15pt;
+    background: none;
+    border-color: green;
+    margin-left: 300px;
+    margin-top: 25px;
+    width: 500px;
+}
+
+.btn-tertiary:hover {
+    color: black;
+    background: none;
+}
+
+.btn-tetris,
+.btn-tetris:visited {
+    color: green;
+    font-family: 'Abril Fatface';
+    font-size: 15pt;
+    background: none;
+    border-color: green;
+    margin-top: -190px;
+    margin-right: 20px;
+    width: 100px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.btn-tetris:hover {
+    color: black;
+    background: none;
+}

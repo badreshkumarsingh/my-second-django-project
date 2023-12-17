@@ -1,0 +1,17 @@
+{% extends 'polls/base.html' %}
+    
+{% block content %}
+    <form action="{% url 'polls:vote' question.id %}" method="post">
+    {% csrf_token %}
+    <fieldset>
+        <h1><a class="listerhead"> Please establish your opinion. We value your opinion : </a></h1>
+        <legend><h1><a class="listerdetailquestion">{{ question.question_text }}</a></h1></legend>
+        {% if error_message %}<p><strong><a class="emessage" > {{ error_message }} </a></strong></p>{% endif %}
+        {% for choice in question.choice_set.all %}
+            <input style="margin-left:300px;" type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
+            <label class="btn btn-primary" for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
+        {% endfor %}
+    </fieldset>
+    <input class="btn btn-secondary" type="submit" value="Vote">
+    </form>
+{% endblock %}

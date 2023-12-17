@@ -1,0 +1,14 @@
+{% extends 'polls/base.html' %}
+    
+{% block content %}
+    <h1><a class="listerhead"> Results:</a></h1>
+    <a class="listerresultsquestion">{{ question.question_text }}</a>
+
+    <ul>
+    {% for choice in question.choice_set.all %}
+        <li><a class="listerresultschoices">{{ choice.choice_text }} : {{ choice.votes }} vote{{ choice.votes|pluralize }}</a></li>
+    {% endfor %}
+    </ul>
+
+    <a class="btn btn-tertiary" href="{% url 'polls:detail' question.id %}"> Vote again? </a>
+    {% endblock %}
